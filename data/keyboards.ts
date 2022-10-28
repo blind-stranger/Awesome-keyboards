@@ -25,7 +25,7 @@ const keyboardData: KeyboardsData = {
             price: 11380,
             cur: "₽",
             desc: "K330W — первая массовая клавиатура на переключателях Gateron CAP V2 Crystal. Имеет 2 беспроводных режима и работает до 8 месяцев без подзарядки.",
-            pic: "/Durgod_K330W.jpg",
+            pic: "/Durgod_K330W_Mint.jpg",
         },
         {
             productName: "Leopold FC750R BT White/Gray",
