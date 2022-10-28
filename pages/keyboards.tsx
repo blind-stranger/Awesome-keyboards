@@ -6,7 +6,7 @@ import keyboardData from "../data/keyboards"
 const Keyboards: NextPage = () => {
     function buildCard(obj: CardComponentProps) {
         return (
-            <div className="column is-one-quarter ">
+            <div className="column min-width">
                 <CardComponent
                     productName={obj.productName}
                     price={obj.price}
