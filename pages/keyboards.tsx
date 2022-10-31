@@ -1,4 +1,5 @@
 import type { NextPage } from "next"
+import Head from "next/head"
 import CardComponent from "../components/CardComponent"
 import { CardComponentProps } from "../components/CardComponent"
 import keyboardData from "../data/keyboards"
@@ -19,11 +20,14 @@ const Keyboards: NextPage = () => {
     }
     const cards = keyboardData.keyboards.map(buildCard)
     return (
-        <div className="my_marg">
-            <div className="columns is-multiline">
-                {cards}
+        <>
+            <Head>
+                <title>Shop - Awesome Keyboards</title>
+            </Head>
+            <div className="my_marg">
+                <div className="columns is-multiline">{cards}</div>
             </div>
-        </div>
+        </>
     )
 }
-export default Keyboards;
+export default Keyboards
