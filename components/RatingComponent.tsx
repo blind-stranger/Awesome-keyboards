@@ -3,11 +3,11 @@ import StarComponent from "./StarComponent"
 
 function RatingComponent(): JSX.Element {
     const starArray = [
-        <StarComponent key="1"/>,
-        <StarComponent key="2"/>,
-        <StarComponent key="3"/>,
-        <StarComponent key="4"/>,
-        <StarComponent key="5"/>,
+        <StarComponent key="star_1"/>,
+        <StarComponent key="star_2"/>,
+        <StarComponent key="star_3"/>,
+        <StarComponent key="star_4"/>,
+        <StarComponent key="star_5"/>,
     ]
     return (
         <div className="is-flex is-justify-content-center pt-6">

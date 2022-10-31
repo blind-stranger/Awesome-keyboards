@@ -1,8 +1,8 @@
 import { useState } from "react"
 
 function StarComponent(): JSX.Element {
-    const [changeButton, setchangeButton] = useState(true)
-    const [coloredButton, setColoredButton] = useState("#7653fc")
+    const [changeButton, setchangeButton] = useState(false)
+    const [coloredButton, setColoredButton] = useState("#ddd5fe")
 
     function changeRating() {
         if (changeButton) {
