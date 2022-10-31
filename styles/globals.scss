@@ -61,8 +61,32 @@ body {
 }
 
 .footer {
-    height: 350px;
+    height: 300px;
     margin-top: 120px;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
+}
+
+.navbar {
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.05);
+}
+
+.buttons .button:not(:last-child):not(.is-fullwidth) {
+    margin-right: 1rem;
+}
+
+.my-title-is-2 {
+    transition: all 0.3s;
+}
+
+.my-pad-bot{
+    padding-bottom: 10px;
+}
+.my-pad-bot-title{
+    padding-bottom: 15px;
+    color: #f5f6f8;
+}
+
+.my-pad-left{
+    padding-left: 6rem;
 }
