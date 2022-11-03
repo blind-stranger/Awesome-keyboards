@@ -1,24 +1,14 @@
-import { useState } from "react"
+export type StarComponentProps = {
+    filled: boolean
+    setRating: () => void
+}
 
-function StarComponent(): JSX.Element {
-    const [changeButton, setchangeButton] = useState(false)
-    const [coloredButton, setColoredButton] = useState("#ddd5fe")
-
-    function changeRating() {
-        if (changeButton) {
-            setchangeButton(false)
-            setColoredButton("#ddd5fe")
-        } else {
-            setchangeButton(true)
-            setColoredButton("#7653fc")
-        }
-    }
-
+function StarComponent(props: StarComponentProps): JSX.Element {
     return (
         <li>
             <svg
-                onClick={changeRating}
-                fill={coloredButton}
+                onClick={props.setRating}
+                fill = {props.filled ? "#7653fc" : "#ddd5fe"} 
                 width="30"
                 height="30"
                 viewBox="0 0 20 20"
