@@ -1,45 +1,43 @@
-import type { NextPage } from "next"
-
 function FooterComponent(): JSX.Element {
     return (
         <footer className="footer dark-mode">
             <div className="columns">
-                <div className="column my-pad-left">
+                <div className="column footer_column">
                     <ul>
-                        <li className="my-pad-bot-title  is-size-4">Магазин</li>
-                        <li className="my-pad-bot">Клавиатуры</li>
-                        <li className="my-pad-bot">Мышки </li>
-                        <li className="my-pad-bot">Аксессуары</li>
-                        <li className="my-pad-bot">Инструменты и детали</li>
-                        <li className="my-pad-bot">Ремонт и апгрейд </li>
+                        <li className="my-pad-bot-title is-size-4">Магазин</li>
+                        <li>Клавиатуры</li>
+                        <li>Мышки </li>
+                        <li>Аксессуары</li>
+                        <li>Инструменты и детали</li>
+                        <li>Ремонт и апгрейд </li>
                     </ul>
                 </div>
-                <div className="column">
+                <div className="column footer_column">
                     <ul>
                         <li className="my-pad-bot-title is-size-4">Покупателям</li>
-                        <li className="my-pad-bot">Доставка и оплата</li>
-                        <li className="my-pad-bot">Гарантия и возврат</li>
-                        <li className="my-pad-bot">Политика конфиденциальности</li>
-                        <li className="my-pad-bot">Пользовательское соглашение</li>
-                        <li className="my-pad-bot">Договор-оферта</li>
+                        <li>Доставка и оплата</li>
+                        <li>Гарантия и возврат</li>
+                        <li>Политика конфиденциальности</li>
+                        <li>Пользовательское соглашение</li>
+                        <li>Договор-оферта</li>
                     </ul>
                 </div>
-                <div className="column">
+                <div className="column footer_column">
                     <ul>
                         <li className="my-pad-bot-title is-size-4">Где нас найти</li>
-                        <li className="my-pad-bot">Работаем без выходных</li>
-                        <li className="my-pad-bot">Каждый день 11:00 – 20:00</li>
-                        <li className="my-pad-bot">г. Москва, метро Театральная</li>
-                        <li className="my-pad-bot">Нижний Сусальный переулок, 5 </li>
+                        <li>Работаем без выходных</li>
+                        <li>Каждый день 11:00 – 20:00</li>
+                        <li>г. Москва, метро Театральная</li>
+                        <li>Нижний Сусальный переулок, 5 </li>
                     </ul>
                 </div>
-                <div className="column">
+                <div className="column footer_column">
                     <ul>
                         <li className="my-pad-bot-title is-size-4">Мы в соцсетях</li>
-                        <li className="my-pad-bot">Telegram</li>
-                        <li className="my-pad-bot">Instagram</li>
-                        <li className="my-pad-bot">VK</li>
-                        <li className="my-pad-bot">Email</li>
+                        <li>Telegram</li>
+                        <li>Instagram</li>
+                        <li>VK</li>
+                        <li>Email</li>
                     </ul>
                 </div>
             </div>

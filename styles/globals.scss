@@ -1,6 +1,5 @@
 $column-gap: 1.5rem;
 $primary: #7653FC;
-
 @import "~bulma";
 
 html,
@@ -24,7 +23,7 @@ body {
     min-width: 350px;
 }
 
-.my_marg {
+.keyboards_marg {
     margin: 4rem;
     margin-top: 6rem;
 }
@@ -42,7 +41,6 @@ body {
 
 .dark-mode {
     background-color: #171a1c;
-    // background-color: #30343f;
     color: #abb3be;
 }
 
@@ -67,6 +65,10 @@ body {
     border-top-right-radius: 35px;
 }
 
+.footer_column li {
+    padding-bottom: 10px;
+}
+
 .stars li{
     display: inline-block;
     margin-right: 5px;
@@ -87,14 +89,7 @@ body {
     transition: all 0.3s;
 }
 
-.my-pad-bot{
-    padding-bottom: 10px;
-}
 .my-pad-bot-title{
     padding-bottom: 15px;
     color: #f5f6f8;
-}
-
-.my-pad-left{
-    padding-left: 6rem;
 }
