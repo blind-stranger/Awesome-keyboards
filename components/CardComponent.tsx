@@ -59,4 +59,3 @@ function CardComponent(props: CardComponentProps): JSX.Element {
 }
 
 export default CardComponent
- test
