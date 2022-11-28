@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { useState } from "react"
-// вф
+// вффывывфывфы
 export type CardComponentProps = {
     productName: string
     price: number | string
